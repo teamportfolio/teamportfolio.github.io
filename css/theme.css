@@ -13,6 +13,26 @@
     text-align: center;
     margin-top: 1rem; }
 
+.card-row{
+    margin-top: 1rem;
+}
+
+img.card-img-top {
+    max-width: 100%;
+    width: 100%;
+}
+
+#briefcase .fa-briefcase {
+    font-size: 7rem;
+    color: white;
+    float: right;
+    position: relative;
+    top: 1.25rem;
+    right: 1rem;
+    display: none;
+}
+
+
 html {
     font-size: 16px; }
 
@@ -49,22 +69,6 @@ a:focus, a:hover {
     margin-bottom: 0;
     padding: 2rem 0; }
 
-#bernielogo {
-    margin: 2rem auto;
-    text-align: center;
-    display: inline-block; }
-
-#superdelegates {
-    text-align: center;
-    min-height: 55rem; }
-
-#superdelegates ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none; }
-
-#superdelegates ol {
-    margin-bottom: 2rem; }
 
 .social-icons {
     text-align: center;
@@ -97,6 +101,11 @@ a:focus, a:hover {
         right: 2rem; }
 
     #headerbox p {
-        padding-left: 2rem; } }
+        padding-left: 2rem; }
+    #briefcase .fa-briefcase {
+        display: block;
+    }
+
+}
 
 /*# sourceMappingURL=theme.css.map */
